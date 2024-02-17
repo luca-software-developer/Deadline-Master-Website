@@ -1,0 +1,37 @@
+html {
+    scroll-padding-top: 3.5rem;
+}
+
+header {
+    padding-top: 9.5rem;
+}
+
+section {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+a {
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav .logo {
+    width: 36px;
+    margin-right: .5rem;
+}
+
+#screenshot-dm {
+    height: 300px;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+#screenshot-dm img {
+    width: 100%;
+    height: auto;
+}
