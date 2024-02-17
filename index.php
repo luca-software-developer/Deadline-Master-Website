@@ -94,10 +94,16 @@
             </div>
         </div>
     </section>
-    <footer class="py-5 bg-dark">
-        <div class="container px-4">
-            <p class="m-0 text-center text-white">Copyright &copy; Deadline Master <?php echo date('Y'); ?></p>
-        </div>
+    <footer class="py-3 bg-dark" data-bs-theme="dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a class="nav-link px-2 text-body-secondary" href="#features"><i class="bi bi-check2-square"></i>
+                    Funzionalità</a></li>
+            <li class="nav-item"><a class="nav-link px-2 text-body-secondary" href="#download"><i class="bi bi-download"></i>
+                    Download</a></li>
+            <li class="nav-item"><a class="nav-link px-2 text-body-secondary" href="#github"><i class="bi bi-github"></i> Repository
+                    GitHub</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© <?php echo date('Y'); ?> Deadline Master</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
