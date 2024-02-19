@@ -2,6 +2,36 @@
 <html lang="it" dir="ltr">
 
 <head>
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {
+            "askConsentAtCookiePolicyUpdate": true,
+            "floatingPreferencesButtonDisplay": "bottom-right",
+            "perPurposeConsent": true,
+            "siteId": 3501513,
+            "whitelabel": false,
+            "cookiePolicyId": 68246498,
+            "lang": "it",
+            "banner": {
+                "acceptButtonCaptionColor": "#FFFFFF",
+                "acceptButtonColor": "#0073CE",
+                "acceptButtonDisplay": true,
+                "backgroundColor": "#FFFFFF",
+                "closeButtonRejects": true,
+                "customizeButtonCaptionColor": "#4D4D4D",
+                "customizeButtonColor": "#DADADA",
+                "customizeButtonDisplay": true,
+                "explicitWithdrawal": true,
+                "listPurposes": true,
+                "position": "bottom",
+                "showTitle": false,
+                "textColor": "#000000"
+            }
+        };
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3501513.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Deadline Master è un'applicazione per la gestione delle scadenze." />
@@ -103,10 +133,50 @@
             <li class="nav-item"><a class="nav-link px-2 text-body-secondary" href="#github"><i class="bi bi-github"></i> Repository
                     GitHub</a></li>
         </ul>
-        <p class="text-center text-body-secondary">© <?php echo date('Y'); ?> Deadline Master</p>
+        <p class="text-center text-body-secondary">
+            © <?php echo date('Y'); ?> Deadline Master
+        </p>
+        <p class="text-center">
+            <a href="https://www.iubenda.com/privacy-policy/68246498" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a>
+            <script type="text/javascript">
+                (function(w, d) {
+                    var loader = function() {
+                        var s = d.createElement("script"),
+                            tag = d.getElementsByTagName("script")[0];
+                        s.src = "https://cdn.iubenda.com/iubenda.js";
+                        tag.parentNode.insertBefore(s, tag);
+                    };
+                    if (w.addEventListener) {
+                        w.addEventListener("load", loader, false);
+                    } else if (w.attachEvent) {
+                        w.attachEvent("onload", loader);
+                    } else {
+                        w.onload = loader;
+                    }
+                })(window, document);
+            </script>
+            <a href="https://www.iubenda.com/privacy-policy/68246498/cookie-policy" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a>
+            <script type="text/javascript">
+                (function(w, d) {
+                    var loader = function() {
+                        var s = d.createElement("script"),
+                            tag = d.getElementsByTagName("script")[0];
+                        s.src = "https://cdn.iubenda.com/iubenda.js";
+                        tag.parentNode.insertBefore(s, tag);
+                    };
+                    if (w.addEventListener) {
+                        w.addEventListener("load", loader, false);
+                    } else if (w.attachEvent) {
+                        w.attachEvent("onload", loader);
+                    } else {
+                        w.onload = loader;
+                    }
+                })(window, document);
+            </script>
+        </p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>
