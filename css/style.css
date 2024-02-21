@@ -15,6 +15,14 @@ a {
     font-weight: bold;
 }
 
+nav {
+    background-color: rgba(33, 37, 41, .8);
+    -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
 .logo {
     width: 100px;
     height: auto;
@@ -23,6 +31,7 @@ a {
 nav .logo {
     width: 36px;
     margin-right: .5rem;
+    padding-bottom: .2rem;
 }
 
 #screenshot-dm {

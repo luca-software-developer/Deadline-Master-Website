@@ -51,10 +51,12 @@
 </head>
 
 <body id="top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container px-4">
-            <img class="logo" src="./img/logo.png" alt="Deadline Master" title="Deadline Master" width="144" height="144" />
-            <a class="navbar-brand" href="#top">Deadline Master</a>
+            <a class="navbar-brand" href="#top">
+                <img class="logo" src="./img/logo.png" alt="Deadline Master" title="Deadline Master" width="144" height="144" />
+                Deadline Master
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
@@ -105,8 +107,8 @@
                     <h2><i class="bi bi-download"></i>&emsp;Download</h2>
                     <p class="lead">Scaricare e utilizzare un programma non è mai stato così semplice. L'applicazione
                         Deadline Master è distribuita come file JAR (Java Archive) avviabile e non richiede
-                        installazione. Per poterla utilizzare è sufficiente disporre di <a target="_blank" href="https://www.oracle.com/it/java/technologies/downloads/#java8">Oracle Java
-                            8</a>.<br /><br />Scarica Deadline Master da <a href="https://github.com/luca-software-developer/Deadline-Master/releases/latest/download/Deadline-Master.jar">qui</a>.
+                        installazione. Per poterla utilizzare è sufficiente disporre di <a target="_blank" href="https://www.oracle.com/it/java/technologies/downloads/#java8-windows">Oracle Java
+                            8</a>.<br /><br />Scarica l'ultima versione di Deadline Master da <a href="https://github.com/luca-software-developer/Deadline-Master/releases/latest/download/Deadline-Master.jar">qui</a>.
                     </p>
                 </div>
             </div>
