@@ -8,6 +8,19 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <meta property="og:title" content="Deadline Master">
+    <meta property="og:site_name" content="Deadline Master">
+    <meta property="og:url" content="https://deadlinemaster.altervista.org/">
+    <meta property="og:description" content="Deadline Master è un'applicazione per la gestione delle scadenze.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://deadlinemaster.altervista.org/img/screenshot-dm.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Deadline Master">
+    <meta name="twitter:description" content="Deadline Master è un'applicazione per la gestione delle scadenze.">
+    <meta name="twitter:image" content="https://deadlinemaster.altervista.org/img/logo.png">
+    <meta name="twitter:image:alt" content="Deadline Master">
+
     <title>Deadline Master</title>
 
     <link rel="apple-touch-icon" sizes="144x144" href="./apple-touch-icon.png">
@@ -54,7 +67,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container px-4">
             <a class="navbar-brand" href="#top">
-                <img class="logo" src="./img/logo.png" alt="Deadline Master" title="Deadline Master" width="144" height="144">
+                <img class="logo" src="./img/logo.png" alt="Deadline Master" width="144" height="144">
                 Deadline Master
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -70,14 +83,14 @@
             </div>
         </div>
     </nav>
-    <header class="bg-primary bg-gradient text-white">
+    <header class="text-white">
         <div class="container px-4 text-center">
-            <img class="logo" src="./img/logo.png" alt="Deadline Master" title="Deadline Master" width="144" height="144">
+            <img class="logo" src="./img/logo.png" alt="Deadline Master" width="144" height="144">
             <h1 class="fw-bolder">Deadline Master</h1>
             <p class="lead">Deadline Master è un'applicazione per la gestione delle scadenze.</p>
             <a class="btn btn-lg btn-light" href="#download"><i class="bi bi-download"></i>&emsp;Download</a>
             <div id="screenshot-dm">
-                <img src="./img/screenshot-dm.png" alt="Deadline Master" title="Deadline Master" width="1200" height="880">
+                <img src="./img/screenshot-dm.png" alt="Deadline Master" width="1200" height="880">
             </div>
         </div>
     </header>
@@ -107,8 +120,8 @@
                     <h2><i class="bi bi-download"></i>&emsp;Download</h2>
                     <p class="lead">Scaricare e utilizzare un programma non è mai stato così semplice. L'applicazione
                         Deadline Master è distribuita come file JAR (Java Archive) avviabile e non richiede
-                        installazione. Per poterla utilizzare è sufficiente disporre di <a target="_blank" href="https://www.oracle.com/it/java/technologies/downloads/#java8-windows">Oracle Java
-                            8</a>.<br><br>Scarica l'ultima versione di Deadline Master da <a href="https://github.com/luca-software-developer/Deadline-Master/releases/latest/download/Deadline-Master.jar">qui</a>.
+                        installazione. Per poterla utilizzare è sufficiente disporre di <a class="link-danger" target="_blank" href="https://www.oracle.com/it/java/technologies/downloads/#java8-windows">Oracle Java
+                            8</a>.<br><br>Scarica l'ultima versione di Deadline Master da <a class="link-danger" href="https://github.com/luca-software-developer/Deadline-Master/releases/latest/download/Deadline-Master.jar">qui</a>.
                     </p>
                 </div>
             </div>
@@ -120,7 +133,7 @@
                 <div class="col-lg-8">
                     <h2><i class="bi bi-github"></i>&emsp;Repository GitHub</h2>
                     <p class="lead">Puoi trovare il codice sorgente di Deadline Master, tutte le release e ulteriori
-                        informazioni sul <a target="_blank" href="https://github.com/luca-software-developer/Deadline-Master">repository GitHub</a>
+                        informazioni sul <a class="link-danger" target="_blank" href="https://github.com/luca-software-developer/Deadline-Master">repository GitHub</a>
                         ufficiale del progetto.</p>
                 </div>
             </div>
