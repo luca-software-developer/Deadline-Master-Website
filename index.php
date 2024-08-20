@@ -54,7 +54,7 @@
                 "customizeButtonDisplay": true,
                 "explicitWithdrawal": true,
                 "listPurposes": true,
-                "position": "bottom",
+                "position": "float-bottom-center",
                 "showTitle": false,
                 "textColor": "#000000"
             }
