@@ -21,11 +21,7 @@ a {
 }
 
 nav {
-    background-color: rgba(33, 37, 41, .9);
-    -webkit-filter: drop-shadow(0px 5px 10px rgba(33, 37, 41, .5));
-    filter: drop-shadow(0px 5px 10px rgba(33, 37, 41, .5));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(33, 37, 41);
 }
 
 .logo {
