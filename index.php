@@ -38,6 +38,7 @@
         _iub.csConfiguration = {
             "askConsentAtCookiePolicyUpdate": true,
             "floatingPreferencesButtonDisplay": "bottom-right",
+            "localConsentDomain": "deadlinemaster.altervista.org",
             "perPurposeConsent": true,
             "siteId": 3501513,
             "whitelabel": false,
